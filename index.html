@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img src="images/bg-desktop-light.jpg" alt="header-bg" class="header-bg">
+<div class="container">
+  <header>
+  <h1>Todo List</h1>
+  <img src="images/icon-moon.svg" alt="moon" class="moon mode">
+</header>
+<main>
+  <div class="input-div rect item light"><div class="check-div l-circle"><div class="check-inside light"></div></div><input type="text" class="text l-font" placeholder="Enter new item"></div>
+  <div class="list-items rect light">
+    <div class="bottom-menu item light">
+      <span class="item-num-div">
+    <span class="num">0</span> items left
+      </span>
+  <div class="filter-div">
+    <span class="all filter highlighted">
+    All
+  </span>
+  <span class="active filter">
+    Active 
+  </span>
+  <span class="completed filter">
+    Completed
+  </span>
+  </div>
+  <span class="clear-div">
+    Clear Completed
+  </span>
+  </div>
+  </div>
+
+</main>
+<footer>
+  Drag and drop to reorder list
+</footer>
+</div>
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> 
+-->
+<script src="./script.js"></script>
+</body>
+</html>

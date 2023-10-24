@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background: hsl(0, 0%, 98%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+    width: clamp(365px, 90%, 600px);
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+}
+
+.header-bg {
+    width: 100vw;
+    height: clamp(265px, 50vw, 280px);
+    object-fit: cover;
+    object-position: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: white
+}
+
+.mode {
+    width: 30px;
+    height: 30px;
+}
+
+.mode:hover {
+    cursor: pointer;
+}
+
+main {
+    margin-block: 20px;
+}
+
+.rect {
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.263);
+}
+
+.item {
+    height: 20px;
+    padding: 14px;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-block: 10px 18px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-text {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.x-div {
+    display: flex;
+    align-items: center;
+}
+
+.x {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.x:hover {
+    transition: 300ms;
+    rotate: 90deg;
+}
+
+.bottom-menu {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    border-radius: 5px;
+}
+
+.check-div {
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.check-inside {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 20px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.text:focus {
+    outline: none;
+}
+
+.text:focus::placeholder {
+    visibility: hidden;
+}
+
+.filter-div {
+    font-weight: 700;
+}
+
+.item-text {
+    cursor: pointer;
+}
+
+.all:hover,
+.active:hover,
+.completed:hover,
+.clear-div:hover {
+    cursor: pointer;
+}
+
+.all,
+.active,
+.completed {
+    padding-inline: 7px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-block: 40px;
+    font-size: 14px;
+    color: gray;
+}
+
+.highlighted {
+    color: hsl(220, 98%, 61%) !important
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: hsl(235, 24%, 19%);
+}
+
+.l-font {
+    color: hsl(235, 19%, 35%)
+}
+
+.d-font {
+    color: hsl(234, 39%, 85%);
+}
+
+.l-circle {
+    background: hsl(0, 0%, 89%);
+}
+
+.d-circle {
+    background: hsl(237, 14%, 26%)
+}
+
+.l-bottom {
+    border-bottom: 2px solid hsl(0, 0%, 89%);
+}
+
+.d-bottom {
+    border-bottom: 2px solid hsl(237, 14%, 26%);
+}
+
+.gradient {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%)) !important;
+}
+
+.drag-over {
+    background-color: rgba(0, 0, 0, 0.141);
+}
+
+.dlight {
+    color: hsl(0, 0%, 89%)
+}
+
+.ddark {
+    color: hsl(237, 14%, 26%)
+}
