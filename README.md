@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [GitHub Live](https://your-live-site-url.com)
+- Live Site URL: [GitHub Live](https://rnsnceman.github.io/Todo-list/)
 
 ## My process
 
